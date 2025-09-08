@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+// https://nasemanadaprova.blogspot.com/2014/04/linguagem-c-ponteiros.html
 int main() {
     // Alocando 10 bytes de memória dinamicamente para armazenar 10 caracteres
     char *nome = malloc(10 * sizeof(char));
