@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>  // Necessário para usar strlen
 
 int main() {
     // Inicializando o array 'nome' com a string "Maria"
@@ -12,4 +13,4 @@ int main() {
     printf("Tamanho da string sem o '\\0': %lu\n", strlen(nome));
 
     return 0;
-}
+}v
