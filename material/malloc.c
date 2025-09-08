@@ -23,3 +23,15 @@ int main()
 // Essa é uma característica fundamental em C, onde ponteiros são variáveis que armazenam endereços de memória, podendo várias variáveis ponteiras apontar para o mesmo endereço.
 
 // Em resumo: Sim, no código apresentado, p1 e p2 apontam para o mesmo endereço e compartilham o valor armazenado nesse endereço (o valor de valor).
+
+// Aqui está a explicação detalhada:
+
+// A variável valor é declarada como um inteiro e inicializada com 3.
+
+// p1 e p2 são ponteiros para inteiro e ambos são inicializados com o endereço de valor (usando o operador &).
+
+// Quando você usa *p1, está acessando o conteúdo (valor) da variável valor através do ponteiro p1. Inicialmente, esse valor é 3, pois valor == 3.
+
+// Ao fazer *p2 = 7;, você altera o conteúdo do endereço para o qual p2 aponta. Como p2 aponta para valor, essa linha muda o valor de valor para 7.
+
+// Logo após essa operação, quando imprime valor, ele é 7.
